@@ -46,15 +46,17 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 100px;
     display: flex;
     align-items: center;
     border-bottom: 5px solid black;
 }
-.menu li a:hover {
+.menu li a:hover,
+.menu .active a {
     border-bottom: 5px solid #b28756;
+    color: rgb(255, 160, 18);
 }
 
 
