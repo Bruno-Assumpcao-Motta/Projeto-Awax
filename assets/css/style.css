@@ -60,3 +60,12 @@ header {
 }
 
 
+.banner {
+    height:calc(100vh - 100px);
+    background-color: rgb(66, 66, 66);
+    background-image: url('../images/bg.jpg');
+    background-size: cover; /* ajuste para preencher todo o espaço*/
+    background-position: bottom;
+}
+
+
