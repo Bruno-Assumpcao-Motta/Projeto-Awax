@@ -278,11 +278,12 @@ CSS DE ÁREAS ESPECÍFICAS
     font-size: 13px;
     border-left: 1px solid #aaa;
     color: #555;
-    border-bottom: 3px solid #aaa;
+    border-bottom: 3px solid #ddd;
     cursor: pointer;
 }
 
-.section-projects--filters li:hover {
+.section-projects--filters li:hover,
+.section-projects--filters li.active {
     border-bottom: 3px solid #b28756;
 }
 
