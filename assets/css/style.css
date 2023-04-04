@@ -157,6 +157,7 @@ header {
 }
 .default .section-desc {
     font-size: 13px;
+    color: #ccc;
     margin-top: 10px;
     margin-bottom: 40px;
     
@@ -166,11 +167,29 @@ header {
     max-width:1140px;
     margin:auto;
     min-height: 100px;
-    background-color: #ccc;
+    background-color: #878787;
 }
 .default.light {
     background-color: #f7f7f7;
 }
-.default.light .section-title {
+.default.light .section-title,
+.default.light .section-body {
     color: black;
 }
+.default.dark {
+    background-color: black;
+}
+.default.dark .section-title,
+.default.dark .section-body {
+    color: white;
+}
+
+
+
+
+
+
+/*
+CSS DE ÁREAS ESPECÍFICAS
+*/
+
