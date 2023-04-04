@@ -24,11 +24,18 @@ header {
     width: 100px;
     
 }
+
 .logoimg {
     width: 80px;
     height: 80px;
-    background-color: #b28756;
     border-radius: 40px;
+    padding-left: 15px;
+}   
+
+.logoimg img {
+    width: 80px;
+    height: 80px;
+    
 }
 .menu {
     flex: 1;
