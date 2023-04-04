@@ -249,3 +249,43 @@ CSS DE ÁREAS ESPECÍFICAS
     font-size: 13px;
     color: #999;
 }
+
+
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-projects--filters {
+    display: inline-block;
+    border: 1px solid #aaa;
+    background-color: #ddd;
+    border-radius: 30px;
+    padding: 0px 20px;
+    
+}
+
+.section-projects--filters ul,
+.section-projects--filters li {
+    list-style-type: none;
+}
+
+.section-projects--filters li {
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #aaa;
+    color: #555;
+    border-bottom: 3px solid #aaa;
+    cursor: pointer;
+}
+
+.section-projects--filters li:hover {
+    border-bottom: 3px solid #b28756;
+}
+
+.section-projects--filters li:first-child {
+    border-left: 0;
+}
