@@ -438,6 +438,11 @@ CSS DE ÁREAS ESPECÍFICAS
     font-weight: 900;
     color: #999;
 }
+.section-happy-clients-area > p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .section-happy-clients--avatar {
     display: flex;
     justify-content: center;
@@ -477,13 +482,15 @@ CSS DE ÁREAS ESPECÍFICAS
     background-color: #b28756;
 }
 .section-trade-area {
-    width: 1140px;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw;
+    height: 150px;
     display: flex;
-    border: 1px solid #999;
-    padding: 30px;
+    border: 1px solid #999;    
 }
-.section-trade a {
-    padding: 30px;
-    
+.section-trade > a {
+    margin: 10px;    
+    padding: 20px; 
     
 }
