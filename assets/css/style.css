@@ -80,6 +80,18 @@ header {
     margin-top: 30px;
     border-radius: 20px;
 }
+.button-black {
+    display: inline-block;
+    background-color: #0d0d0d;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 
 .banner {
     height:calc(100vh - 100px);
@@ -481,27 +493,49 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-happy-clients-area .pointer.active {
     background-color: #b28756;
 }
-.section-trade-area {
-    justify-content: center; 
-    align-items: center;
-    width: 100vw;
-    height: 150px;
-    display: flex;
-    border: 1px solid #999;    
+.section-companies {
+    border-top:1px solid #DDD;
+    border-bottom:1px solid #DDD;
 }
-.section-trade > a {
-    margin: 10px;    
-    padding: 20px; 
-    
+.section-companies--area {
+    display:flex;
+    align-items:center;
 }
-
-.section-price-area .section-title {
-    font-weight: bolder;
-    font-size: 30px;
+.section-company {
+    flex:1;
+    text-align:center;
 }
-
-.section-price-area .section-desc {
-    font-size: 14px;
-    font-weight: 900;
-    color: #999;
+.section-price {
+    display:flex;
+}
+.section-price--item {
+    flex:1;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding:20px;
+    text-align:center;
+}
+.section-price--item:last-child {
+    margin-right:0;
+}
+.section-price--item-name {
+    text-transform: uppercase;
+    font-size:13px;
+    font-weight:600;
+}
+.section-price--item-money {
+    font-weight: bold;
+    font-size:22px;
+    margin-top:10px;
+}
+.section-price--item-period {
+    color:#999;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+.section-price--item-point {
+    font-size:12px;
+}
+.button-black button--dark {
+background-color: #b28756;
 }
