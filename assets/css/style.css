@@ -757,3 +757,6 @@ background-color: #b28756;
 .section-contact--split input:first-child {
     margin-right:20px;
 }
+.button {
+    cursor: pointer;
+}
