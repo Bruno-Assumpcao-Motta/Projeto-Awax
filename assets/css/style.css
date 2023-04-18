@@ -269,7 +269,10 @@ CSS DE ÁREAS ESPECÍFICAS
     color: #999;
 }
 
-
+.section-projects-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
 .section-projects {
     display: flex;
     flex-direction: column;
@@ -368,6 +371,10 @@ CSS DE ÁREAS ESPECÍFICAS
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+.section-team-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
 }
 .section-team {
     overflow: hidden;
