@@ -216,6 +216,10 @@ header {
 CSS DE ÁREAS ESPECÍFICAS
 */
 
+.section-aboutus-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
 .section-aboutus {
     display: flex;
 }
@@ -238,7 +242,10 @@ CSS DE ÁREAS ESPECÍFICAS
     box-shadow: 0px 5px 10px #333333bb;
 }
 
-
+.section-services-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
 .section-services {
     display: flex;
 }
@@ -505,6 +512,10 @@ CSS DE ÁREAS ESPECÍFICAS
     flex:1;
     text-align:center;
 }
+.section-price-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
 .section-price {
     display:flex;
 }
@@ -545,6 +556,10 @@ background-color: #b28756;
 }
 .premium .section-body {
     max-width:initial;
+}
+.section-premium-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
 }
 .section-premium {
     overflow:hidden;
@@ -621,4 +636,40 @@ background-color: #b28756;
 }
 .section-premium .pointer.active {
     background-color:#B28756;
+}
+.section-facts-area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.section-facts {
+    display:flex;
+}
+.section-fact {
+    flex:1;
+    text-align:center;
+    padding:15px;
+}
+.section-title .fact {
+    color: black;
+
+}
+.section-fact h3 {
+    color:#B28756;
+    font-size:45px;
+}
+.section-fact-line {
+    width:20px;
+    border-bottom:4px solid #736e69;
+    margin:auto;
+}
+.section-fact h4 {
+    margin-top:20px;
+    text-transform: uppercase;
+    font-size:18px;
+}
+.section-fact p {
+    margin-top:10px;
+    font-size:13px;
+    color:#999;
 }
