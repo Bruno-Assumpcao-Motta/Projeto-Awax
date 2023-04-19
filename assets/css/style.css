@@ -550,6 +550,7 @@ CSS DE ÁREAS ESPECÍFICAS
     color:#999;
     text-transform: uppercase;
     margin-bottom:20px;
+    font-size: 16px;
 }
 .section-price--item-point {
     font-size:12px;
@@ -570,6 +571,7 @@ background-color: #b28756;
 }
 .section-premium {
     overflow:hidden;
+    font-size: 16px;
 }
 .section-premium a {
     margin-top:30px;
