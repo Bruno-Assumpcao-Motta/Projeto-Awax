@@ -8,6 +8,7 @@ body {
     font-size: 13px;
     overflow-x: hidden;
     background-color: black;
+    
 }
 
 header {
@@ -69,10 +70,9 @@ header {
     color: rgb(255, 160, 18);
 }
 main {
-    width: 90%;    
-    align-items: center;
+    max-width: 1140px;
+    background-color: black;
     margin: auto;
-    background-color: #000;
 }
 .button {
     
@@ -284,6 +284,7 @@ CSS DE ÁREAS ESPECÍFICAS
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 .section-projects--filters {
@@ -526,14 +527,17 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-companies {
     border-top:1px solid #DDD;
     border-bottom:1px solid #DDD;
+    background-color: white;
 }
 .section-companies--area {
     display:flex;
     align-items:center;
+    
 }
 .section-company {
     flex:1;
     text-align:center;
+    
 }
 .section-price-area .section-title {
     font-weight: bolder;
@@ -808,6 +812,7 @@ background-color: #b28756;
 .section-map--info {
     width: 50%;
     padding: 30px;
+    margin-left: 20px;
     background-color: #fff;
     color: #000;
 }
