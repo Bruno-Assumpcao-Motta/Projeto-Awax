@@ -731,25 +731,35 @@ background-color: #b28756;
 .section-share--icon.pinterest {
     background-color:#b71c29;
 }
+.section-body {
+    font-size: 30px;
+}
 .section-contact {
-    max-width:450px;
+    max-width:500px;
     margin:auto;
     text-align:center;
+    font-size: 20px;
 }
 .section-contact input[type=text],
 .section-contact textarea {
+    color: #ffffff;
+    
+    font-size: 16px;
+    color: #cfcfcf;
     display:block;
     width:100%;
     height:40px;
     border:0;
     background:transparent;
-    border-bottom:1px solid #CCC;
+    border-bottom:3px solid #CCC;
     outline:0;
-    margin-top:10px;
+    margin-top:30px;
 }
 .section-contact textarea {
+    color: #fff;
     height:100px;
     resize:none;
+    font-size: 20px;
 }
 .section-contact--split {
     display:flex;
@@ -759,4 +769,9 @@ background-color: #b28756;
 }
 .button {
     cursor: pointer;
+    border: 0;
+}
+.section-contact--area .section-title {
+    font-weight: bolder;
+    font-size: 30px;
 }
