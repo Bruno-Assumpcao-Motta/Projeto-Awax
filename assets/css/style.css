@@ -804,3 +804,25 @@ background-color: #b28756;
     background-color: #fff;
     color: #000;
 }
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    
+}
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 20px;
+    background-color: #999;
+    border-radius: 15px;
+    
+}
+.section-map--info-item-img img {
+    width: 20px;
+    height: auto;
+}
