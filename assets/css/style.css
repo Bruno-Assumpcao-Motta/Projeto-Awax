@@ -358,6 +358,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .section-projects--photoarea:hover .section-projects--photoinfo {
     display: flex;
+    font-size: 14px;
 }
 .bg-team {
     background-image: url('../images/bg.jpg');
@@ -455,6 +456,10 @@ CSS DE ÁREAS ESPECÍFICAS
     background-color: #b28756;
     
 }
+.section-happy-clients-area > img {
+    justify-content: center;
+    align-items: center;
+}
 .section-happy-clients-area .section-title {
     font-weight: bolder;
     font-size: 30px;
@@ -464,6 +469,7 @@ CSS DE ÁREAS ESPECÍFICAS
     font-weight: 900;
     color: #999;
 }
+
 .section-happy-clients-area > p {
     justify-content: center;
     align-items: center;
@@ -475,19 +481,22 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 .section-happy-clients--name {
     display: flex;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 19px;
+    
+    font-weight: bolder;
+    font-size: 25px;
     margin-top: 25px;
     justify-content: center;
 }
 .section-happy-clients--role {
-    font-size: 14px;
+    font-size: 16px;
     color: #090909;
-    font-weight: 600;
+    font-weight: bolder;
     margin-top: 5px;
     text-align: center;
     margin-bottom: 10px;
+}
+.section-happy-clients--role > img {
+    padding-top: 30px;
 }
 .section-happy-clients-area .sliders-pointers {
     margin-top: 30px;
@@ -776,4 +785,22 @@ background-color: #b28756;
 .section-contact--area .section-title {
     font-weight: bolder;
     font-size: 30px;
+}
+.section-map {
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-map--area {
+    width: 100vw;
+    max-width:1140px ;
+    margin: auto;
+}
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    color: #000;
 }
