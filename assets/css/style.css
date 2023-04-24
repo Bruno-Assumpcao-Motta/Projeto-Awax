@@ -40,6 +40,9 @@ header {
     height: 80px;
     
 }
+.menu-opener {
+    display:none ;
+}
 .menu {
     flex: 1;
     display: flex;
@@ -65,7 +68,7 @@ header {
     border-bottom: 5px solid black;
 }
 .menu li a:hover,
-.menu .active a {
+.menu li.active a {
     border-bottom: 5px solid #b28756;
     color: rgb(255, 160, 18);
 }
@@ -899,8 +902,13 @@ footer {
 }
 
 @media (min-width: 450px) and (max-width: 800px){
+    .menu-opener {
+        display: flex;
+        width: 30px;
+        margin-right: 40px;
+    }
     nav {
-        
+        display: none;
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
@@ -914,15 +922,15 @@ footer {
     }
 
     .menu li a {
-        font-weight: bold;
-        height: 80px;
-        font-size: 20px;
-        margin-left: 50px;
-        border: 0;
+        font-weight:bold;
+        height:80px;
+        font-size:20px;
+        margin-left:50px;
+        border:0;
     }
 
     .menu li.active a {
-        border: 0;
-        color: #B28756;
+        border:0;
+        color:#B28756;
     }
 }
