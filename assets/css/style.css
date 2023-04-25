@@ -911,7 +911,7 @@ footer {
         margin-right: 40px;
     }
     nav {
-        display: ;
+        display: none;
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
@@ -963,11 +963,21 @@ footer {
     .section-service:first-child {
         border-left: 0;
     }
-    .section-projects--filters ul {
-        width: auto;
-        font-size: 10;
-    }
+    
     .section-team {
         max-width: 580px;
     }
+
+
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map--area {
+        width: auto;
+    }
+    .section-map--info {
+        width: auto;
+    }
+    
 }
