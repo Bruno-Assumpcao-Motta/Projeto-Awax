@@ -968,6 +968,10 @@ footer {
         max-width: 580px;
     }
 
+    .section-companies--area {
+        max-width: 580px;
+    }
+
 
     .section-map {
         padding-left: 30px;
@@ -979,5 +983,10 @@ footer {
     .section-map--info {
         width: auto;
     }
-    
+    .section.section-map--info-item {
+        margin-bottom: 20px;
+    }
+    .section.map--info-iten:last-child {
+        margin-bottom: 0;
+    }
 }
