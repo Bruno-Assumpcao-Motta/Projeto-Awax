@@ -1167,15 +1167,22 @@ footer {
         
         
     }
-    .section-team .section-body {
-        
-    }
+    
 
     .section-companies--area {
-        max-width: 580px;
+        display: flex;
+        padding: 10px;
+        
+
     }
-    .section-logo img {
-        width: 80px;
+    .section-companies > img {
+        flex-wrap: wrap;
+        width: 10px;
+        
+        
+    }
+    .section-price--item {
+        width: 100vw;
     }
     .section-logo-box {
         gap: 35px;
@@ -1208,7 +1215,11 @@ footer {
     .section-share {
         margin-left: -35px;
     }
+    .section-contact {
+        width: 80Vw;
+        font-size: 8px;
 
+    }
     .section-map {
         padding: 0;
         padding-bottom: 250px;
