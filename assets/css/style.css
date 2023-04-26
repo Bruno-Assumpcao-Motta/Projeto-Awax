@@ -907,8 +907,8 @@ footer {
     }
     .menu-opener {
         display: block;
-        width: 30px;
-        margin-right: 40px;
+        width: 45px;
+        margin-right: 30px;
     }
     nav {
         display: none;
@@ -929,9 +929,9 @@ footer {
     .menu li a {
         font-weight:bold;
         height:80px;
-        font-size:20px;
+        font-size:27px;
         margin-left:50px;
-        border:0;
+        border:none;
     }
     .menu li a:hover {
         border: 0;
@@ -948,7 +948,10 @@ footer {
         flex-direction: column;        
     }
     .section-aboutus--left {
-        margin: 30px 0px 30px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        text-align: center;
     }
     .section-aboutus--right {
         width: auto;
@@ -963,6 +966,12 @@ footer {
     .section-service:first-child {
         border-left: 0;
     }
+    .section-service:last-child {
+        border-right-width: 0;
+    }
+    .section-service:nth-child(2) {
+        border-right: 0;
+    }
     
     .section-team {
         max-width: 580px;
@@ -971,12 +980,46 @@ footer {
     .section-companies--area {
         max-width: 580px;
     }
+    .section-logo img {
+        width: 80px;
+    }
+    .section-logo-box {
+        gap: 35px;
+    }
+    .section-price-tables {
+        justify-content: center;
+        min-width: 50%;
+        flex-wrap: wrap;
+    }
+    .section-price-table {
+        margin-bottom: 30px;
+    }
+    .section-premium-area {
+        margin-right: 340px;
+        width: 350px;
+        flex-direction: column;
+    }
+    .section-premium--left {
+        display: flex;
+        width: 350px;
+    }
+    .section-premium--right {
+        display: flex;
+        width: 350px;
+    }
+    .section-facts {
+        flex-wrap: wrap;
+    }
 
+    .section-share {
+        margin-left: -35px;
+    }
 
     .section-map {
         padding-left: 30px;
         padding-right: 30px;
     }
+    
     .section-map--area {
         width: auto;
     }
@@ -989,4 +1032,33 @@ footer {
     .section.map--info-iten:last-child {
         margin-bottom: 0;
     }
+    footer {
+        height: auto;
+    }
+    .footer--area {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer--item area1 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-social {
+        margin-bottom: 20px;
+    }
+    .footer--item area2 {
+        max-width: 7000px;
+        text-align: center;
+        justify-content: center;
+        width: 700px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .footer--item area3 {
+        
+    }
+
 }
